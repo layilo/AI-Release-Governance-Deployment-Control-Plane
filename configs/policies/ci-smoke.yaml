@@ -1,0 +1,7 @@
+name: ci-smoke-policy
+hard_fail_rules:
+  min_quality_score: 0.8
+  min_structured_output_validity: 0.9
+warn_only_rules:
+  max_latency_ms: 1500
+emergency_bypass_allowed: true

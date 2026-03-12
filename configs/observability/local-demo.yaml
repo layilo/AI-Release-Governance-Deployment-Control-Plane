@@ -1,0 +1,14 @@
+provider: mock
+sampling: 1.0
+otel:
+  enabled: false
+cost_profile:
+  baseline_cost_per_1k: 0.02
+health_weights:
+  quality: 0.2
+  reliability: 0.2
+  latency: 0.15
+  cost: 0.1
+  safety: 0.15
+  structured_output_correctness: 0.1
+  business_proxy: 0.1

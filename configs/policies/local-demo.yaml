@@ -1,0 +1,20 @@
+name: local-demo-policy
+hard_fail_rules:
+  min_quality_score: 0.85
+  min_structured_output_validity: 0.95
+  max_latency_ms: 1200
+  max_cost_per_1k: 0.04
+  min_safety_score: 0.9
+  min_success_rate: 0.93
+  max_error_rate: 0.05
+  max_p95_latency_ms: 1400
+  max_p99_latency_ms: 2000
+  max_fallback_rate: 0.08
+  max_malformed_output_rate: 0.05
+  max_cost_spike_ratio: 1.4
+warn_only_rules:
+  max_token_usage: 900
+approval_escalation:
+  high: [release_board, sre, safety]
+freeze_windows: []
+emergency_bypass_allowed: true

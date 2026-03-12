@@ -1,0 +1,8 @@
+name: dev-policy
+hard_fail_rules:
+  min_quality_score: 0.75
+  min_structured_output_validity: 0.9
+  max_latency_ms: 2000
+warn_only_rules:
+  max_token_usage: 1200
+emergency_bypass_allowed: true

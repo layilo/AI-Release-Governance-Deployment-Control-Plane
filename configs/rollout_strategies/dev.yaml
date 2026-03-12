@@ -1,0 +1,10 @@
+canary:
+  - name: canary-10
+    step_type: canary
+    exposure_percent: 10
+  - name: canary-50
+    step_type: progressive
+    exposure_percent: 50
+  - name: full-dev
+    step_type: full
+    exposure_percent: 100

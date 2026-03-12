@@ -1,0 +1,4 @@
+{"trace_id":"t1","run_id":"r1","environment":"prod","release_bundle_id":"release_bundle_001","latency_ms":640,"error":false,"fallback":false,"output_valid":true,"cost_estimate":0.018}
+{"trace_id":"t2","run_id":"r2","environment":"prod","release_bundle_id":"release_bundle_001","latency_ms":710,"error":false,"fallback":false,"output_valid":true,"cost_estimate":0.019}
+{"trace_id":"t3","run_id":"r3","environment":"prod","release_bundle_id":"release_bundle_001","latency_ms":820,"error":false,"fallback":false,"output_valid":true,"cost_estimate":0.021}
+{"trace_id":"t4","run_id":"r4","environment":"prod","release_bundle_id":"release_bundle_001","latency_ms":980,"error":true,"fallback":true,"output_valid":false,"cost_estimate":0.03}

@@ -1,0 +1,24 @@
+bundle_id: release_bundle_workflow_only
+version: v2
+prompt_refs:
+  - artifact_id: customer_support_prompt
+    version: v1
+workflow_refs:
+  - artifact_id: triage_workflow
+    version: v2
+serving_config_refs:
+  - artifact_id: support_serving
+    version: v1
+safety_policy_refs:
+  - artifact_id: safety_default
+    version: v1
+metadata: { feature: customer-support }
+tags: [workflow-only]
+release_notes: "Workflow-only update."
+owner_team: ai-platform
+created_at: "2026-03-10T09:30:00"
+source_environment: qa
+target_environment: staging
+risk_classification: low
+approval_requirements: []
+traceability: { change_request: CR-1000 }

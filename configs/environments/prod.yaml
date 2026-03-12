@@ -1,0 +1,4 @@
+environments:
+  prod:
+    aliases:
+      stable: release_bundle_000

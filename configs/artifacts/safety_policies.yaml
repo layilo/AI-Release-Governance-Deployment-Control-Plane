@@ -1,0 +1,11 @@
+safety_policies:
+  - artifact_id: safety_default
+    version: v1
+    rules:
+      pii_redaction: true
+      jailbreak_detection: medium
+  - artifact_id: safety_default
+    version: v2
+    rules:
+      pii_redaction: true
+      jailbreak_detection: strict

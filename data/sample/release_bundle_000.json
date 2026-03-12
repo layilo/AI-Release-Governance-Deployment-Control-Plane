@@ -1,0 +1,8 @@
+{
+  "bundle_id": "release_bundle_000",
+  "version": "v1",
+  "prompt": "customer_support_prompt:v1",
+  "workflow": "triage_workflow:v1",
+  "serving": "support_serving:v1",
+  "safety": "safety_default:v1"
+}

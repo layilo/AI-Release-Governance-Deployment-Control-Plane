@@ -1,0 +1,9 @@
+name: staging-policy
+hard_fail_rules:
+  min_quality_score: 0.82
+  min_structured_output_validity: 0.93
+  max_latency_ms: 1400
+  max_cost_per_1k: 0.045
+warn_only_rules:
+  max_token_usage: 1000
+emergency_bypass_allowed: true

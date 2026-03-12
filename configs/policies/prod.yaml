@@ -1,0 +1,23 @@
+name: prod-policy
+hard_fail_rules:
+  min_quality_score: 0.88
+  min_structured_output_validity: 0.96
+  max_latency_ms: 1100
+  max_cost_per_1k: 0.035
+  min_safety_score: 0.93
+  min_success_rate: 0.95
+  max_error_rate: 0.03
+  max_p95_latency_ms: 1200
+  max_p99_latency_ms: 1800
+  max_fallback_rate: 0.06
+  max_malformed_output_rate: 0.03
+  max_cost_spike_ratio: 1.3
+warn_only_rules:
+  max_token_usage: 850
+approval_escalation:
+  medium: [release_board]
+  high: [release_board, sre, safety]
+freeze_windows:
+  - "2026-12-24"
+  - "2026-12-25"
+emergency_bypass_allowed: false

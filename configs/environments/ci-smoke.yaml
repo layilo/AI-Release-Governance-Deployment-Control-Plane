@@ -1,0 +1,5 @@
+environments:
+  staging:
+    aliases: { stable: release_bundle_000 }
+  prod:
+    aliases: { stable: release_bundle_000 }

@@ -1,0 +1,7 @@
+canary:
+  - name: canary-10
+    step_type: canary
+    exposure_percent: 10
+  - name: full-smoke
+    step_type: full
+    exposure_percent: 100

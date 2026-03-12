@@ -1,0 +1,34 @@
+canary:
+  - name: shadow-100
+    step_type: shadow
+    exposure_percent: 0
+    duration_seconds: 10
+  - name: canary-1
+    step_type: canary
+    exposure_percent: 1
+    duration_seconds: 10
+  - name: canary-5
+    step_type: canary
+    exposure_percent: 5
+    duration_seconds: 10
+  - name: canary-10
+    step_type: canary
+    exposure_percent: 10
+    duration_seconds: 10
+  - name: canary-25
+    step_type: progressive
+    exposure_percent: 25
+    duration_seconds: 10
+  - name: canary-50
+    step_type: progressive
+    exposure_percent: 50
+    duration_seconds: 10
+  - name: full-prod
+    step_type: full
+    exposure_percent: 100
+    duration_seconds: 10
+full:
+  - name: full-prod
+    step_type: full
+    exposure_percent: 100
+    duration_seconds: 5

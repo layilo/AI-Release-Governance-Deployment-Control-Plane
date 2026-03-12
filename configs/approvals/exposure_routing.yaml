@@ -1,0 +1,9 @@
+exposures:
+  prod:release_bundle_001: 0
+segments:
+  internal_users:
+    include_domains: ["example.internal"]
+tenants:
+  canary_tenants: ["tenant-a", "tenant-b"]
+kill_switch:
+  enabled: false

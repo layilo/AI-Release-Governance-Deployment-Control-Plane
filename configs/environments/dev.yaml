@@ -1,0 +1,3 @@
+environments:
+  dev: { aliases: { stable: release_bundle_prompt_only } }
+  qa: { aliases: { stable: release_bundle_workflow_only } }

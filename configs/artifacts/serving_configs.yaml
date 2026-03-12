@@ -1,0 +1,13 @@
+serving_configs:
+  - artifact_id: support_serving
+    version: v1
+    model: gpt-4.1-mini
+    parameters:
+      temperature: 0.2
+      max_tokens: 700
+  - artifact_id: support_serving
+    version: v2
+    model: gpt-4.1-mini
+    parameters:
+      temperature: 0.3
+      max_tokens: 850

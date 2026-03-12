@@ -1,0 +1,11 @@
+workflows:
+  - artifact_id: triage_workflow
+    version: v1
+    definition:
+      steps: ["classify", "retrieve_kb", "draft_answer"]
+      tools: ["kb_search"]
+  - artifact_id: triage_workflow
+    version: v2
+    definition:
+      steps: ["classify", "retrieve_kb", "check_policy", "draft_answer", "self_critique"]
+      tools: ["kb_search", "policy_checker"]

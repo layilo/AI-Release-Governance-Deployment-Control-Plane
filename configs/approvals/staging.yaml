@@ -1,0 +1,5 @@
+required_by_risk:
+  low: []
+  medium: [release_manager]
+  high: [release_manager, sre]
+additional_prod_roles: []

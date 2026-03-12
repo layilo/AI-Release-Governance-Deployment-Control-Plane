@@ -1,0 +1,13 @@
+canary:
+  - name: shadow-100
+    step_type: shadow
+    exposure_percent: 0
+  - name: canary-5
+    step_type: canary
+    exposure_percent: 5
+  - name: canary-25
+    step_type: progressive
+    exposure_percent: 25
+  - name: full-staging
+    step_type: full
+    exposure_percent: 100

@@ -1,0 +1,26 @@
+bundle_id: release_bundle_002
+version: v3
+prompt_refs:
+  - artifact_id: customer_support_prompt
+    version: v2
+workflow_refs:
+  - artifact_id: triage_workflow
+    version: v2
+serving_config_refs:
+  - artifact_id: support_serving
+    version: v2
+safety_policy_refs:
+  - artifact_id: safety_default
+    version: v2
+metadata:
+  feature: customer-support
+tags: [blocked-offline]
+release_notes: "Experimental prompt refactor expected to improve detail."
+owner_team: ai-platform
+created_at: "2026-03-10T11:00:00"
+source_environment: staging
+target_environment: prod
+risk_classification: high
+approval_requirements: [release_board, sre, safety]
+traceability:
+  change_request: CR-1002

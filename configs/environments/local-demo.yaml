@@ -1,0 +1,13 @@
+environments:
+  dev:
+    aliases:
+      stable: release_bundle_prompt_only
+  qa:
+    aliases:
+      stable: release_bundle_workflow_only
+  staging:
+    aliases:
+      stable: release_bundle_000
+  prod:
+    aliases:
+      stable: release_bundle_000

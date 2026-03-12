@@ -1,0 +1,6 @@
+required_by_risk:
+  low: [release_board]
+  medium: [release_board, sre]
+  high: [release_board, sre, safety]
+additional_prod_roles: [release_board]
+freeze_override_roles: [vp_engineering, incident_commander]
