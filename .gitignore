@@ -12,4 +12,6 @@ dist/
 htmlcov/
 .env
 state/
-reports/
+/reports/
+!src/ai_release_control_plane/reports/
+!src/ai_release_control_plane/reports/*.py
